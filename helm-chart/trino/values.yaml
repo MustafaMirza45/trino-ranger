@@ -4,9 +4,9 @@
 
 image:
   repository: trinodb/trino
-  pullPolicy: IfNotPresent
+  pullPolicy: Always
   # Overrides the image tag whose default is the chart version.
-  tag: latest
+  tag: "384"
 
 imagePullSecrets:
   - name: registry-credentials
