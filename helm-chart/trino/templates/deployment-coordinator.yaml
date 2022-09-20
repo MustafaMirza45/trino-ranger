@@ -110,10 +110,9 @@ spec:
           command:
             - "sh"
             - "-c"
-            - | 
-              wget https://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@github.com/MustafaMirza45/trino-ranger/blob/helms/trino/docker-entrypoint.sh
-              wget https://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@github.com/MustafaMirza45/trino-ranger/blob/helms/trino/install.properties
+            - |
               ls
+              pwd
               ./docker-entrypoint.sh
       {{- with .Values.nodeSelector }}
       nodeSelector:

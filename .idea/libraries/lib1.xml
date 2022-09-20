@@ -1,0 +1,25 @@
+<component name="libraryTable">
+  <library name="lib1">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/trino/ranger-2.3.0-trino-plugin/install/lib/commons-logging-1.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/trino/ranger-2.3.0-trino-plugin/install/lib/guava-27.0-jre.jar!/" />
+      <root url="jar://$PROJECT_DIR$/trino/ranger-2.3.0-trino-plugin/install/lib/stax2-api-3.1.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/trino/ranger-2.3.0-trino-plugin/install/lib/credentialbuilder-2.3.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/trino/ranger-2.3.0-trino-plugin/install/lib/commons-compress-1.8.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/trino/ranger-2.3.0-trino-plugin/install/lib/commons-lang3-3.3.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/trino/ranger-2.3.0-trino-plugin/install/lib/commons-configuration2-2.1.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/trino/ranger-2.3.0-trino-plugin/install/lib/commons-io-2.5.jar!/" />
+      <root url="jar://$PROJECT_DIR$/trino/ranger-2.3.0-trino-plugin/install/lib/slf4j-api-1.7.32.jar!/" />
+      <root url="jar://$PROJECT_DIR$/trino/ranger-2.3.0-trino-plugin/install/lib/commons-collections-3.2.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/trino/ranger-2.3.0-trino-plugin/install/lib/woodstox-core-5.0.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/trino/ranger-2.3.0-trino-plugin/install/lib/ranger-plugins-installer-2.3.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/trino/ranger-2.3.0-trino-plugin/install/lib/hadoop-auth-3.3.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/trino/ranger-2.3.0-trino-plugin/install/lib/commons-cli-1.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/trino/ranger-2.3.0-trino-plugin/install/lib/htrace-core4-4.1.0-incubating.jar!/" />
+      <root url="jar://$PROJECT_DIR$/trino/ranger-2.3.0-trino-plugin/install/lib/commons-lang-2.6.jar!/" />
+      <root url="jar://$PROJECT_DIR$/trino/ranger-2.3.0-trino-plugin/install/lib/hadoop-common-3.3.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

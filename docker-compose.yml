@@ -25,37 +25,34 @@ services:
       - trino-ranger-demo
     volumes:
     - ranger-pg-data:/var/lib/postgresql/data
-  # ranger-admin:
-  #   image: mustafamirza45/apache-ranger-admin
-  #   container_name: ranger-admin
-  #   hostname: ranger-admin
-  #   entrypoint: /root/docker-entrypoint.sh
-  #   deploy:
-  #     resources:
-  #       limits:
-  #         cpus: '2'
-  #         memory: 6G
-  #       reservations:
-  #         cpus: '1'
-  #         memory: 5G
-  #   ports:
-  #     - 6080:6080
-  #   networks:
-  #     - trino-ranger-demo
-  #   volumes:
-  #     - ./ranger-admin/install.properties:/root/install.properties
-  #     - ./ranger-admin/docker-entrypoint.sh:/root/docker-entrypoint.sh
-  trino:
-    image: trinodb/trino:384
-    hostname: my-localhost-trino
-    user: root
-    container_name: my-localhost-trino
+  ranger-admin:
+    image: mustafamirza45/apache-ranger-admin
+    container_name: ranger-admin
+    hostname: ranger-admin
     entrypoint: /root/docker-entrypoint.sh
+    deploy:
+      resources:
+        limits:
+          cpus: '2'
+          memory: 6G
+        reservations:
+          cpus: '1'
+          memory: 5G
+    ports:
+      - 6080:6080
     networks:
       - trino-ranger-demo
     volumes:
-      - ./trino/install.properties:/root/install.properties
-      - ./trino/docker-entrypoint.sh:/root/docker-entrypoint.sh
+      - ./ranger-admin/install.properties:/root/install.properties
+      - ./ranger-admin/docker-entrypoint.sh:/root/docker-entrypoint.sh
+  trino:
+    image: mustafamirza45/trino-plugin:v0.8
+    hostname: my-localhost-trino
+    user: root
+    entrypoint: /docker-entrypoint.sh
+    container_name: my-localhost-trino
+    networks:
+      - trino-ranger-demo
     ports:
       - 8080:8080
 networks:

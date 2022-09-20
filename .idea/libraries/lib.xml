@@ -1,0 +1,23 @@
+<component name="libraryTable">
+  <library name="lib">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/trino/ranger-2.3.0-trino-plugin/lib/bval-jsr-2.0.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/trino/ranger-2.3.0-trino-plugin/lib/validation-api-2.0.1.Final.jar!/" />
+      <root url="jar://$PROJECT_DIR$/trino/ranger-2.3.0-trino-plugin/lib/guava-26.0-jre.jar!/" />
+      <root url="jar://$PROJECT_DIR$/trino/ranger-2.3.0-trino-plugin/lib/bootstrap-0.192.jar!/" />
+      <root url="jar://$PROJECT_DIR$/trino/ranger-2.3.0-trino-plugin/lib/ranger-plugin-classloader-2.3.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/trino/ranger-2.3.0-trino-plugin/lib/jackson-core-2.11.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/trino/ranger-2.3.0-trino-plugin/lib/slf4j-simple-1.7.32.jar!/" />
+      <root url="jar://$PROJECT_DIR$/trino/ranger-2.3.0-trino-plugin/lib/ranger-trino-plugin-shim-2.3.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/trino/ranger-2.3.0-trino-plugin/lib/log-0.192.jar!/" />
+      <root url="jar://$PROJECT_DIR$/trino/ranger-2.3.0-trino-plugin/lib/javax.annotation-api-1.3.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/trino/ranger-2.3.0-trino-plugin/lib/slf4j-api-1.7.32.jar!/" />
+      <root url="jar://$PROJECT_DIR$/trino/ranger-2.3.0-trino-plugin/lib/log-manager-0.192.jar!/" />
+      <root url="jar://$PROJECT_DIR$/trino/ranger-2.3.0-trino-plugin/lib/javax.inject-1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/trino/ranger-2.3.0-trino-plugin/lib/guice-4.2.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/trino/ranger-2.3.0-trino-plugin/lib/configuration-0.192.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
